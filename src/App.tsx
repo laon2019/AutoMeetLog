@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Home from './Pages/Home';
+import MeetingForm from './Pages/MeetingForm';
+import 'remixicon/fonts/remixicon.css';
 
 const App = () => {
   return (
     <Routes>
-      <Route index element={<Home />} />
+      <Route index element={<MeetingForm />} />
     </Routes>
   );
 }
