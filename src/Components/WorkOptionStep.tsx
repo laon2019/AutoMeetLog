@@ -125,6 +125,31 @@ const WorkOptionStep: React.FC<WorkOptionStepProps> = ({
       - 누군가의 도움이 많이 필요합니다. 지금 진행 상태는 xx입니다. xx의 문제가 발생해서 약 xx만큰 소요되었습니다. 
     
     이런식으로 데이터를 활용해서 자동으로 주간회의록을 만들어줘
+
+최종으로 밑에 처럼 나오게해줘
+### 규범님 @on la
+
+- 금주 진행 사항
+- 사이드 바 및 맵 버그 해결
+    - constr_id 이슈 해결
+    - 사이드바 이슈 해결
+    - url 리다이렉트 - constr_id가 없을 때만 Map 으로 이동 (커스텀훅)
+    - 지도 버그 이슈 해결
+    - 지도 -> 현장대시보드 url 이동 로직 개발
+- geoJSON API 연결
+    
+    민영님이 만들어주신 API 연결
+    
+- 현장개소 UI, 유효성검사, API 연결
+    
+    현장 개소 UI 효중님과 같이 작업
+    
+    유효성 검사 민영님과 같이 작업
+    
+    API 민영님과 작업
+
+
+예를 들어 이런식으로 나오게 해줘
     `;
 
     const completePrompt = `${prompt}\n${additionalInstructions}`;
