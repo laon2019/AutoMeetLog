@@ -97,6 +97,8 @@ const WorkOptionStep: React.FC<WorkOptionStepProps> = ({
 
   const handleCompletion = async () => {
     const prompt =
+      `나는 주간 보고서를 작성할거야 회사람 전부 보는 자료니깐 자세히 정리해줘`+
+      
       `이름: ${name}\n` +
       weeklyWorks
         .map((work) => {
@@ -140,6 +142,8 @@ geoJSON API 연결
 현장 개소 UI 효중님과 같이 작업
 유효성 검사 민영님과 같이 작업
 API 민영님과 작업
+
+무조건 이런식으로 나오게해줘 위에처럼
     `;
 
     const completePrompt = `${prompt}\n${additionalInstructions}`;
