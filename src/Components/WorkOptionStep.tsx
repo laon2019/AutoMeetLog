@@ -97,7 +97,7 @@ const WorkOptionStep: React.FC<WorkOptionStepProps> = ({
 
   const handleCompletion = async () => {
     const prompt =
-      `나는 주간 보고서를 작성할거야 회사람 전부 보는 자료니깐 자세히 정리해줘`+
+      `나는 주간 보고서를 작성할거야 회사람 전부 보는 자료니깐 자세히 정리해줘 20자 이상으로`+
       
       `이름: ${name}\n` +
       weeklyWorks
