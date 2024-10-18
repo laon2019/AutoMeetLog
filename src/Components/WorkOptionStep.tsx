@@ -149,7 +149,7 @@ API 민영님과 작업
     const completePrompt = `${prompt}\n${additionalInstructions}`;
     console.log(completePrompt);
     try {
-      const chatGPTResponse = await getChatGPT4Response(prompt);
+      const chatGPTResponse = await getChatGPTResponse(prompt);
       //   console.log('ChatGPT 응답:', chatGPTResponse);
       //   // If necessary, you can call onSubmit here
       onSubmit(chatGPTResponse);
